@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nome do Professor">
+    <meta name="description" content="Página pessoal do professor de universidade">
+    <title>Professor Nome | Universidade XYZ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 2em auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .main-content {
+            flex: 3;
+            background-color: white;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            flex: 1;
+            margin-left: 20px;
+            background-color: #fff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #444;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 0.5em;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Professor Nome</h1>
+        <p>Departamento de Ciência da Computação - Universidade XYZ</p>
+    </header>
+
+    <nav>
+        <a href="#biografia">Biografia</a>
+        <a href="#interesses">Áreas de Interesse</a>
+        <a href="#cursos">Cursos Ministrados</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+        <!-- Conteúdo Principal -->
+        <div class="main-content">
+            <section id="biografia">
+                <h2>Biografia</h2>
+                <p>O Professor Nome é docente no Departamento de Ciência da Computação da Universidade XYZ. Possui doutorado em Ciência da Computação pela Universidade ABC e uma vasta experiência em pesquisa nas áreas de inteligência artificial, aprendizado de máquina e processamento de linguagem natural.</p>
+                <p>Com mais de 10 anos de experiência acadêmica e industrial, ele tem se dedicado ao ensino de alunos de graduação e pós-graduação, além de realizar projetos de pesquisa que visam a aplicação prática de algoritmos em soluções inovadoras.</p>
+            </section>
+
+            <section id="interesses">
+                <h2>Áreas de Interesse</h2>
+                <ul>
+                    <li>Inteligência Artificial</li>
+                    <li>Aprendizado de Máquina</li>
+                    <li>Processamento de Linguagem Natural</li>
+                    <li>Redes Neurais Artificiais</li>
+                    <li>Sistemas Inteligentes e Autônomos</li>
+                </ul>
+            </section>
+
+            <section id="cursos">
+                <h2>Cursos Ministrados</h2>
+                <ul>
+                    <li><strong>Algoritmos e Estruturas de Dados</strong> - Graduação</li>
+                    <li><strong>Inteligência Artificial</strong> - Pós-graduação</li>
+                    <li><strong>Aprendizado de Máquina</strong> - Graduação</li>
+                    <li><strong>Redes Neurais e Deep Learning</strong> - Pós-graduação</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Barra Lateral -->
+        <div class="sidebar">
+            <section id="contato">
+                <h2>Contato</h2>
+                <p><strong>Email:</strong> professor@universidadexyz.edu.br</p>
+                <p><strong>Telefone:</strong> +55 (11) 1234-5678</p>
+                <p><strong>Endereço:</strong> Rua da Universidade, 1000, Cidade, Estado, CEP 12345-678</p>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Professor Nome | Universidade XYZ</p>
+    </footer>
+
+</body>
+</html>
